@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutUsViewController">
+            <connections>
+                <outlet property="label" destination="Em5-lW-OYM" id="n3o-Ds-A14"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_icon" translatesAutoresizingMaskIntoConstraints="NO" id="7cl-TS-qDr">
+                    <rect key="frame" x="137.5" y="60" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="ON2-s7-MAm"/>
+                        <constraint firstAttribute="width" constant="100" id="h1a-XY-n4Z"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFP-9E-rMr">
+                    <rect key="frame" x="137.5" y="160" width="100" height="29.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29.5" id="8ZP-tq-oId"/>
+                        <constraint firstAttribute="width" constant="100" id="W3y-f9-gnA"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="得富宝">
+                            <attributes>
+                                <color key="NSColor" red="0.4205623461796707" green="0.41920930119734579" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="21" name="STHeitiSC-Medium"/>
+                                <real key="NSKern" value="0.0"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Em5-lW-OYM">
+                    <rect key="frame" x="20" y="189.5" width="335" height="450"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="450" id="gQA-Te-8BP"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="7tf-9T-1Mu"/>
+                    <mutableString key="text">得富宝，薪酬日结的兼职赚钱神器！靠谱有趣还赚钱！
+
+得富宝的特色：
+1、得富快。覆盖全国多个城市，职位信息实时更新。及时！
+2、信息真。兼职信息都需经过层层审核，去伪存真。无忧！
+3、结算快。完工结算、瞬间到账的痛快体验，别提了！靠谱！
+4、轻松赚。暑期兼职首选，懒人必备！爽！
+5、更放心。得富宝担保职位360°保障你的权益。完美！
+
+主要兼职岗位类型：
+网上兼职/淘宝兼职/周末兼职/寒假暑假兼职/派发
+礼仪/模特/演唱会/志愿者//发传单/推广
+打字兼职/家教/前台/客服/服务员/导购/配送员
+
+各种职位，让您高薪兼职赚够钱！找兼职，上得富宝就对了！
+更多新鲜兼职，等你来发现！
+</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Em5-lW-OYM" firstAttribute="top" secondItem="XFP-9E-rMr" secondAttribute="bottom" id="Arn-sf-NAp"/>
+                <constraint firstItem="Em5-lW-OYM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CYE-48-ypM"/>
+                <constraint firstItem="Em5-lW-OYM" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="LNm-L0-P6u"/>
+                <constraint firstItem="7cl-TS-qDr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="N2Q-HA-rVC"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Em5-lW-OYM" secondAttribute="trailing" constant="20" id="X2r-qu-CGy"/>
+                <constraint firstItem="XFP-9E-rMr" firstAttribute="top" secondItem="7cl-TS-qDr" secondAttribute="bottom" id="a39-fj-Dpb"/>
+                <constraint firstItem="XFP-9E-rMr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pLf-D5-2Tc"/>
+                <constraint firstItem="7cl-TS-qDr" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="40" id="zpb-QO-b03"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="49.5" y="75.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="app_icon" width="342" height="342"/>
+    </resources>
+</document>

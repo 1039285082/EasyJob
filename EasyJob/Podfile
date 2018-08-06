@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'EasyJob' do
+
+ pod 'WRNavigationBar'
+pod 'AXWebViewController'
+pod 'UMCCommon'
+pod 'UMCAnalytics'
+pod 'UMCSecurityPlugins'
+pod 'SDWebImage'
+pod 'SDCycleScrollView'
+pod 'MJRefresh'
+pod 'Masonry'
+pod 'XLForm'
+pod 'MJExtension'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'MBProgressHUD'
+end

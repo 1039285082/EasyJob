@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  EasyJob
+//
+//  Created by mac on 2018/7/23.
+//  Copyright © 2018年 mac. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <WRNavigationBar.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDCycleScrollView.h>
+#import <MJRefresh.h>
+#import <Masonry.h>
+#import <XLForm.h>
+#import <MJExtension.h>
+#import <MBProgressHUD.h>
+#import <UITableView+FDTemplateLayoutCell.h>
+#import "EJSingle.h"
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define KBackgroundColor [UIColor colorWithRed:17/255.0f green:125/255.0f blue:255/255.0f alpha:1]
+
+#define RGBA(r,g,b,a)  [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1]
+
+#define KIsiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
+#endif /* PrefixHeader_pch */

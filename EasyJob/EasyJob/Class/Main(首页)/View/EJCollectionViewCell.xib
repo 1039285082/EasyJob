@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="EJCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="265" height="306"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="265" height="306"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5lY-Uy-buq">
+                        <rect key="frame" x="0.0" y="0.0" width="265" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="uK9-b2-Th0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fC-zT-Dv4">
+                        <rect key="frame" x="0.0" y="285" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="短期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tw-dO-jjm">
+                        <rect key="frame" x="230" y="285" width="35" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="快餐兼职" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxa-Yx-PGh">
+                        <rect key="frame" x="0.0" y="210" width="265" height="41"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="41" id="OYM-1B-eE4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="3tw-dO-jjm" firstAttribute="baseline" secondItem="0fC-zT-Dv4" secondAttribute="baseline" id="1xy-QK-LQp"/>
+                <constraint firstAttribute="bottom" secondItem="3tw-dO-jjm" secondAttribute="bottom" id="BcZ-iN-Ba3"/>
+                <constraint firstItem="5lY-Uy-buq" firstAttribute="trailing" secondItem="3tw-dO-jjm" secondAttribute="trailing" id="PBi-Dk-yvx"/>
+                <constraint firstItem="5lY-Uy-buq" firstAttribute="trailing" secondItem="cxa-Yx-PGh" secondAttribute="trailing" id="TgD-Fh-Azk"/>
+                <constraint firstItem="5lY-Uy-buq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="idb-ty-Cux"/>
+                <constraint firstAttribute="trailing" secondItem="cxa-Yx-PGh" secondAttribute="trailing" id="kj6-77-fyg"/>
+                <constraint firstItem="5lY-Uy-buq" firstAttribute="leading" secondItem="0fC-zT-Dv4" secondAttribute="leading" id="m1F-3D-XYf"/>
+                <constraint firstItem="cxa-Yx-PGh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="n02-Sd-Wlr"/>
+                <constraint firstItem="5lY-Uy-buq" firstAttribute="leading" secondItem="cxa-Yx-PGh" secondAttribute="leading" id="ppD-Uv-x2Y"/>
+                <constraint firstItem="cxa-Yx-PGh" firstAttribute="top" secondItem="5lY-Uy-buq" secondAttribute="bottom" constant="10" id="yuV-CF-v3r"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="265" height="306"/>
+            <connections>
+                <outlet property="imageVIew" destination="5lY-Uy-buq" id="M6Y-LD-MbC"/>
+                <outlet property="salaryLabel" destination="0fC-zT-Dv4" id="QO7-kX-ODw"/>
+                <outlet property="timeLabel" destination="3tw-dO-jjm" id="gdx-iQ-qmN"/>
+                <outlet property="titleLabel" destination="cxa-Yx-PGh" id="dU4-U7-elP"/>
+            </connections>
+            <point key="canvasLocation" x="-35.5" y="57"/>
+        </collectionViewCell>
+    </objects>
+</document>

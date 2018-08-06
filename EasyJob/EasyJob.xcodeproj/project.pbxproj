@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041B81D22108802D0045B160 /* EJJobIntentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B81D12108802D0045B160 /* EJJobIntentionViewController.m */; };
+		0429AA512108109600440D13 /* EJBiographicalNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429AA502108109600440D13 /* EJBiographicalNotesViewController.m */; };
+		0429AA59210817AF00440D13 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429AA52210817AF00440D13 /* HeaderView.m */; };
+		0429AA5A210817AF00440D13 /* JYWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429AA55210817AF00440D13 /* JYWaveView.m */; };
+		0429AA5B210817AF00440D13 /* WeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429AA57210817AF00440D13 /* WeakProxy.m */; };
+		0429AA5E2108217400440D13 /* EJPersonResumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429AA5D2108217400440D13 /* EJPersonResumeViewController.m */; };
+		0429AA612108254100440D13 /* EJResumeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429AA602108254100440D13 /* EJResumeModel.m */; };
+		0429AA6421082E2600440D13 /* EJSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429AA6321082E2600440D13 /* EJSingle.m */; };
+		0429AA67210854B200440D13 /* EJPersonInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429AA66210854B200440D13 /* EJPersonInformationViewController.m */; };
+		042BEBDE210891E80040B87C /* EJEducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042BEBDD210891E80040B87C /* EJEducationViewController.m */; };
+		042BEBE1210892670040B87C /* EJEducationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042BEBE0210892670040B87C /* EJEducationModel.m */; };
+		04356B96210FFDB700CED6A6 /* AppConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 04356B84210FFDB700CED6A6 /* AppConfiguration.m */; };
+		04356B97210FFDB700CED6A6 /* AppConfigurationCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04356B86210FFDB700CED6A6 /* AppConfigurationCache.m */; };
+		04356B98210FFDB700CED6A6 /* GlobalConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 04356B88210FFDB700CED6A6 /* GlobalConfig.m */; };
+		04356B99210FFDB700CED6A6 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04356B8A210FFDB700CED6A6 /* Helper.m */; };
+		04356B9A210FFDB700CED6A6 /* SessionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04356B8C210FFDB700CED6A6 /* SessionData.m */; };
+		04356B9B210FFDB700CED6A6 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04356B8E210FFDB700CED6A6 /* SplashViewController.m */; };
+		04356B9C210FFDB700CED6A6 /* ViewControllerAnchorSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04356B90210FFDB700CED6A6 /* ViewControllerAnchorSet.m */; };
+		04356B9D210FFDB700CED6A6 /* MainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04356B92210FFDB700CED6A6 /* MainTabViewController.m */; };
+		04356B9E210FFDB700CED6A6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04356B95210FFDB700CED6A6 /* Reachability.m */; };
+		0438CEA42105EA70001A08EC /* EJCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0438CEA22105EA70001A08EC /* EJCollectionReusableView.m */; };
+		0438CEA52105EA70001A08EC /* EJCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0438CEA32105EA70001A08EC /* EJCollectionReusableView.xib */; };
+		04554310210ACFA6005B0A72 /* EJNewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455430E210ACFA6005B0A72 /* EJNewTableViewCell.m */; };
+		04554311210ACFA6005B0A72 /* EJNewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0455430F210ACFA6005B0A72 /* EJNewTableViewCell.xib */; };
+		04554314210AD64C005B0A72 /* EJNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04554313210AD64C005B0A72 /* EJNewViewController.m */; };
+		046F477F2109781C007CD8F2 /* EJEduTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F477E2109781C007CD8F2 /* EJEduTableViewController.m */; };
+		046F478321097B54007CD8F2 /* EJEduTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F478121097B54007CD8F2 /* EJEduTableViewCell.m */; };
+		046F478421097B54007CD8F2 /* EJEduTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046F478221097B54007CD8F2 /* EJEduTableViewCell.xib */; };
+		046F47872109AF99007CD8F2 /* EJJobModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F47862109AF99007CD8F2 /* EJJobModel.m */; };
+		046F478A2109B245007CD8F2 /* jobs.json in Resources */ = {isa = PBXBuildFile; fileRef = 046F47892109B245007CD8F2 /* jobs.json */; };
+		046F478D2109BAB3007CD8F2 /* EJJobImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F478C2109BAB3007CD8F2 /* EJJobImage.m */; };
+		046F47902109C6E5007CD8F2 /* EJDetailJobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F478F2109C6E5007CD8F2 /* EJDetailJobViewController.m */; };
+		046F47942109DF7C007CD8F2 /* EJDetailViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F47922109DF7C007CD8F2 /* EJDetailViewTableViewCell.m */; };
+		046F47952109DF7C007CD8F2 /* EJDetailViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046F47932109DF7C007CD8F2 /* EJDetailViewTableViewCell.xib */; };
+		049B1E6C21073CD50007157D /* EJResumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B1E6B21073CD50007157D /* EJResumeViewController.m */; };
+		049D6F6521058C0600E7568F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D6F6421058C0600E7568F /* AppDelegate.m */; };
+		049D6F6D21058C0800E7568F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049D6F6C21058C0800E7568F /* Assets.xcassets */; };
+		049D6F7321058C0800E7568F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D6F7221058C0800E7568F /* main.m */; };
+		049D6F822105BAAD00E7568F /* BaseTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D6F812105BAAD00E7568F /* BaseTabViewController.m */; };
+		049D6F962105C4CF00E7568F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D6F952105C4CF00E7568F /* MainViewController.m */; };
+		049D6F992105C4E000E7568F /* SuggestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D6F982105C4E000E7568F /* SuggestViewController.m */; };
+		049D6FA02105D5DA00E7568F /* EJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D6F9E2105D5DA00E7568F /* EJCollectionViewCell.m */; };
+		049D6FA12105D5DA00E7568F /* EJCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049D6F9F2105D5DA00E7568F /* EJCollectionViewCell.xib */; };
+		04F98003210AE1FD006FC91C /* EJNearbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F98002210AE1FD006FC91C /* EJNearbyViewController.m */; };
+		04F98006210AE993006FC91C /* EJShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F98005210AE993006FC91C /* EJShakeViewController.m */; };
+		04F98027210AEEBB006FC91C /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F9800B210AEEBB006FC91C /* AboutUsViewController.m */; };
+		04F98028210AEEBB006FC91C /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F9800C210AEEBB006FC91C /* AboutUsViewController.xib */; };
+		04F98029210AEEBB006FC91C /* BWWMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F9800E210AEEBB006FC91C /* BWWMyViewController.m */; };
+		04F9802E210AEEBC006FC91C /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F9801A210AEEBB006FC91C /* MyViewController.m */; };
+		04F9802F210AEEBC006FC91C /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F9801D210AEEBB006FC91C /* SettingViewController.m */; };
+		04F98030210AEEBC006FC91C /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F9801E210AEEBB006FC91C /* SettingViewController.xib */; };
+		04F98031210AEEBC006FC91C /* BWWMyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F98022210AEEBB006FC91C /* BWWMyTableViewCell.m */; };
+		04F98032210AEEBC006FC91C /* BWWMyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F98023210AEEBB006FC91C /* BWWMyTableViewCell.xib */; };
+		04F98038210B0293006FC91C /* EJSendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F98037210B0293006FC91C /* EJSendViewController.m */; };
+		04F9803C210B04B8006FC91C /* EJSendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F9803A210B04B8006FC91C /* EJSendTableViewCell.m */; };
+		04F9803D210B04B8006FC91C /* EJSendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F9803B210B04B8006FC91C /* EJSendTableViewCell.xib */; };
+		04F98041210B105F006FC91C /* JKAlertDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F98040210B105F006FC91C /* JKAlertDialog.m */; };
+		04F98049210B1E3C006FC91C /* EJShakeShakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F98048210B1E3C006FC91C /* EJShakeShakeView.m */; };
+		04F9804D210B1EB4006FC91C /* EJShakeShakeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F9804C210B1EB4006FC91C /* EJShakeShakeView.xib */; };
+		2448E6B411838AD6F4E31BAA /* libPods-EasyJob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF01D1594ACFAAE0B9776996 /* libPods-EasyJob.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0074E60D46575D53B59DF9BB /* Pods-EasyJob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyJob.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyJob/Pods-EasyJob.release.xcconfig"; sourceTree = "<group>"; };
+		041B81D02108802D0045B160 /* EJJobIntentionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJJobIntentionViewController.h; sourceTree = "<group>"; };
+		041B81D12108802D0045B160 /* EJJobIntentionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJJobIntentionViewController.m; sourceTree = "<group>"; };
+		0429AA4F2108109600440D13 /* EJBiographicalNotesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJBiographicalNotesViewController.h; sourceTree = "<group>"; };
+		0429AA502108109600440D13 /* EJBiographicalNotesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJBiographicalNotesViewController.m; sourceTree = "<group>"; };
+		0429AA52210817AF00440D13 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		0429AA54210817AF00440D13 /* JYWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYWaveView.h; sourceTree = "<group>"; };
+		0429AA55210817AF00440D13 /* JYWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYWaveView.m; sourceTree = "<group>"; };
+		0429AA56210817AF00440D13 /* WeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakProxy.h; sourceTree = "<group>"; };
+		0429AA57210817AF00440D13 /* WeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakProxy.m; sourceTree = "<group>"; };
+		0429AA58210817AF00440D13 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		0429AA5C2108217400440D13 /* EJPersonResumeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJPersonResumeViewController.h; sourceTree = "<group>"; };
+		0429AA5D2108217400440D13 /* EJPersonResumeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJPersonResumeViewController.m; sourceTree = "<group>"; };
+		0429AA5F2108254100440D13 /* EJResumeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJResumeModel.h; sourceTree = "<group>"; };
+		0429AA602108254100440D13 /* EJResumeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJResumeModel.m; sourceTree = "<group>"; };
+		0429AA6221082E2600440D13 /* EJSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJSingle.h; sourceTree = "<group>"; };
+		0429AA6321082E2600440D13 /* EJSingle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJSingle.m; sourceTree = "<group>"; };
+		0429AA65210854B200440D13 /* EJPersonInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJPersonInformationViewController.h; sourceTree = "<group>"; };
+		0429AA66210854B200440D13 /* EJPersonInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJPersonInformationViewController.m; sourceTree = "<group>"; };
+		042BEBDC210891E80040B87C /* EJEducationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJEducationViewController.h; sourceTree = "<group>"; };
+		042BEBDD210891E80040B87C /* EJEducationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJEducationViewController.m; sourceTree = "<group>"; };
+		042BEBDF210892670040B87C /* EJEducationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJEducationModel.h; sourceTree = "<group>"; };
+		042BEBE0210892670040B87C /* EJEducationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJEducationModel.m; sourceTree = "<group>"; };
+		04356B83210FFDB700CED6A6 /* AppConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfiguration.h; sourceTree = "<group>"; };
+		04356B84210FFDB700CED6A6 /* AppConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfiguration.m; sourceTree = "<group>"; };
+		04356B85210FFDB700CED6A6 /* AppConfigurationCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfigurationCache.h; sourceTree = "<group>"; };
+		04356B86210FFDB700CED6A6 /* AppConfigurationCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfigurationCache.m; sourceTree = "<group>"; };
+		04356B87210FFDB700CED6A6 /* GlobalConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConfig.h; sourceTree = "<group>"; };
+		04356B88210FFDB700CED6A6 /* GlobalConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalConfig.m; sourceTree = "<group>"; };
+		04356B89210FFDB700CED6A6 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		04356B8A210FFDB700CED6A6 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		04356B8B210FFDB700CED6A6 /* SessionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionData.h; sourceTree = "<group>"; };
+		04356B8C210FFDB700CED6A6 /* SessionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionData.m; sourceTree = "<group>"; };
+		04356B8D210FFDB700CED6A6 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		04356B8E210FFDB700CED6A6 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		04356B8F210FFDB700CED6A6 /* ViewControllerAnchorSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAnchorSet.h; sourceTree = "<group>"; };
+		04356B90210FFDB700CED6A6 /* ViewControllerAnchorSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAnchorSet.m; sourceTree = "<group>"; };
+		04356B91210FFDB700CED6A6 /* MainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabViewController.h; sourceTree = "<group>"; };
+		04356B92210FFDB700CED6A6 /* MainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabViewController.m; sourceTree = "<group>"; };
+		04356B94210FFDB700CED6A6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		04356B95210FFDB700CED6A6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0438CEA12105EA70001A08EC /* EJCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJCollectionReusableView.h; sourceTree = "<group>"; };
+		0438CEA22105EA70001A08EC /* EJCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJCollectionReusableView.m; sourceTree = "<group>"; };
+		0438CEA32105EA70001A08EC /* EJCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EJCollectionReusableView.xib; sourceTree = "<group>"; };
+		0455430D210ACFA6005B0A72 /* EJNewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJNewTableViewCell.h; sourceTree = "<group>"; };
+		0455430E210ACFA6005B0A72 /* EJNewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJNewTableViewCell.m; sourceTree = "<group>"; };
+		0455430F210ACFA6005B0A72 /* EJNewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EJNewTableViewCell.xib; sourceTree = "<group>"; };
+		04554312210AD64C005B0A72 /* EJNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJNewViewController.h; sourceTree = "<group>"; };
+		04554313210AD64C005B0A72 /* EJNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJNewViewController.m; sourceTree = "<group>"; };
+		046F477D2109781C007CD8F2 /* EJEduTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJEduTableViewController.h; sourceTree = "<group>"; };
+		046F477E2109781C007CD8F2 /* EJEduTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJEduTableViewController.m; sourceTree = "<group>"; };
+		046F478021097B54007CD8F2 /* EJEduTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJEduTableViewCell.h; sourceTree = "<group>"; };
+		046F478121097B54007CD8F2 /* EJEduTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJEduTableViewCell.m; sourceTree = "<group>"; };
+		046F478221097B54007CD8F2 /* EJEduTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EJEduTableViewCell.xib; sourceTree = "<group>"; };
+		046F47852109AF99007CD8F2 /* EJJobModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJJobModel.h; sourceTree = "<group>"; };
+		046F47862109AF99007CD8F2 /* EJJobModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJJobModel.m; sourceTree = "<group>"; };
+		046F47892109B245007CD8F2 /* jobs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jobs.json; sourceTree = "<group>"; };
+		046F478B2109BAB3007CD8F2 /* EJJobImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJJobImage.h; sourceTree = "<group>"; };
+		046F478C2109BAB3007CD8F2 /* EJJobImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJJobImage.m; sourceTree = "<group>"; };
+		046F478E2109C6E5007CD8F2 /* EJDetailJobViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJDetailJobViewController.h; sourceTree = "<group>"; };
+		046F478F2109C6E5007CD8F2 /* EJDetailJobViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJDetailJobViewController.m; sourceTree = "<group>"; };
+		046F47912109DF7C007CD8F2 /* EJDetailViewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJDetailViewTableViewCell.h; sourceTree = "<group>"; };
+		046F47922109DF7C007CD8F2 /* EJDetailViewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJDetailViewTableViewCell.m; sourceTree = "<group>"; };
+		046F47932109DF7C007CD8F2 /* EJDetailViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EJDetailViewTableViewCell.xib; sourceTree = "<group>"; };
+		049B1E6A21073CD50007157D /* EJResumeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJResumeViewController.h; sourceTree = "<group>"; };
+		049B1E6B21073CD50007157D /* EJResumeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJResumeViewController.m; sourceTree = "<group>"; };
+		049D6F6021058C0600E7568F /* EasyJob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyJob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049D6F6321058C0600E7568F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		049D6F6421058C0600E7568F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		049D6F6C21058C0800E7568F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049D6F7121058C0800E7568F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049D6F7221058C0800E7568F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049D6F7A2105ACF000E7568F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		049D6F802105BAAD00E7568F /* BaseTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabViewController.h; sourceTree = "<group>"; };
+		049D6F812105BAAD00E7568F /* BaseTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabViewController.m; sourceTree = "<group>"; };
+		049D6F942105C4CF00E7568F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		049D6F952105C4CF00E7568F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		049D6F972105C4E000E7568F /* SuggestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuggestViewController.h; sourceTree = "<group>"; };
+		049D6F982105C4E000E7568F /* SuggestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuggestViewController.m; sourceTree = "<group>"; };
+		049D6F9D2105D5DA00E7568F /* EJCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJCollectionViewCell.h; sourceTree = "<group>"; };
+		049D6F9E2105D5DA00E7568F /* EJCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJCollectionViewCell.m; sourceTree = "<group>"; };
+		049D6F9F2105D5DA00E7568F /* EJCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EJCollectionViewCell.xib; sourceTree = "<group>"; };
+		04F98001210AE1FD006FC91C /* EJNearbyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJNearbyViewController.h; sourceTree = "<group>"; };
+		04F98002210AE1FD006FC91C /* EJNearbyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJNearbyViewController.m; sourceTree = "<group>"; };
+		04F98004210AE993006FC91C /* EJShakeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJShakeViewController.h; sourceTree = "<group>"; };
+		04F98005210AE993006FC91C /* EJShakeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJShakeViewController.m; sourceTree = "<group>"; };
+		04F9800A210AEEBB006FC91C /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		04F9800B210AEEBB006FC91C /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		04F9800C210AEEBB006FC91C /* AboutUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
+		04F9800D210AEEBB006FC91C /* BWWMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWWMyViewController.h; sourceTree = "<group>"; };
+		04F9800E210AEEBB006FC91C /* BWWMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWWMyViewController.m; sourceTree = "<group>"; };
+		04F98019210AEEBB006FC91C /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		04F9801A210AEEBB006FC91C /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		04F9801C210AEEBB006FC91C /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		04F9801D210AEEBB006FC91C /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		04F9801E210AEEBB006FC91C /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		04F98021210AEEBB006FC91C /* BWWMyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWWMyTableViewCell.h; sourceTree = "<group>"; };
+		04F98022210AEEBB006FC91C /* BWWMyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWWMyTableViewCell.m; sourceTree = "<group>"; };
+		04F98023210AEEBB006FC91C /* BWWMyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWWMyTableViewCell.xib; sourceTree = "<group>"; };
+		04F98036210B0293006FC91C /* EJSendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJSendViewController.h; sourceTree = "<group>"; };
+		04F98037210B0293006FC91C /* EJSendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJSendViewController.m; sourceTree = "<group>"; };
+		04F98039210B04B8006FC91C /* EJSendTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJSendTableViewCell.h; sourceTree = "<group>"; };
+		04F9803A210B04B8006FC91C /* EJSendTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJSendTableViewCell.m; sourceTree = "<group>"; };
+		04F9803B210B04B8006FC91C /* EJSendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EJSendTableViewCell.xib; sourceTree = "<group>"; };
+		04F9803F210B105F006FC91C /* JKAlertDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAlertDialog.h; sourceTree = "<group>"; };
+		04F98040210B105F006FC91C /* JKAlertDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAlertDialog.m; sourceTree = "<group>"; };
+		04F98047210B1E3C006FC91C /* EJShakeShakeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJShakeShakeView.h; sourceTree = "<group>"; };
+		04F98048210B1E3C006FC91C /* EJShakeShakeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJShakeShakeView.m; sourceTree = "<group>"; };
+		04F9804C210B1EB4006FC91C /* EJShakeShakeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EJShakeShakeView.xib; sourceTree = "<group>"; };
+		BF01D1594ACFAAE0B9776996 /* libPods-EasyJob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyJob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E786D10F17C86508CE0877 /* Pods-EasyJob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyJob.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyJob/Pods-EasyJob.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049D6F5D21058C0600E7568F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2448E6B411838AD6F4E31BAA /* libPods-EasyJob.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0429AA53210817AF00440D13 /* JYWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				0429AA54210817AF00440D13 /* JYWaveView.h */,
+				0429AA55210817AF00440D13 /* JYWaveView.m */,
+				0429AA56210817AF00440D13 /* WeakProxy.h */,
+				0429AA57210817AF00440D13 /* WeakProxy.m */,
+			);
+			path = JYWaveView;
+			sourceTree = "<group>";
+		};
+		04356B81210FFDB700CED6A6 /* After */ = {
+			isa = PBXGroup;
+			children = (
+				04356B82210FFDB700CED6A6 /* Customized */,
+				04356B91210FFDB700CED6A6 /* MainTabViewController.h */,
+				04356B92210FFDB700CED6A6 /* MainTabViewController.m */,
+				04356B93210FFDB700CED6A6 /* Reachability */,
+			);
+			path = After;
+			sourceTree = "<group>";
+		};
+		04356B82210FFDB700CED6A6 /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				04356B83210FFDB700CED6A6 /* AppConfiguration.h */,
+				04356B84210FFDB700CED6A6 /* AppConfiguration.m */,
+				04356B85210FFDB700CED6A6 /* AppConfigurationCache.h */,
+				04356B86210FFDB700CED6A6 /* AppConfigurationCache.m */,
+				04356B87210FFDB700CED6A6 /* GlobalConfig.h */,
+				04356B88210FFDB700CED6A6 /* GlobalConfig.m */,
+				04356B89210FFDB700CED6A6 /* Helper.h */,
+				04356B8A210FFDB700CED6A6 /* Helper.m */,
+				04356B8B210FFDB700CED6A6 /* SessionData.h */,
+				04356B8C210FFDB700CED6A6 /* SessionData.m */,
+				04356B8D210FFDB700CED6A6 /* SplashViewController.h */,
+				04356B8E210FFDB700CED6A6 /* SplashViewController.m */,
+				04356B8F210FFDB700CED6A6 /* ViewControllerAnchorSet.h */,
+				04356B90210FFDB700CED6A6 /* ViewControllerAnchorSet.m */,
+			);
+			path = Customized;
+			sourceTree = "<group>";
+		};
+		04356B93210FFDB700CED6A6 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				04356B94210FFDB700CED6A6 /* Reachability.h */,
+				04356B95210FFDB700CED6A6 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		046F47882109B210007CD8F2 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				04F9803E210B105F006FC91C /* JKAlertDialog */,
+				046F47892109B245007CD8F2 /* jobs.json */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		049D6F5721058C0600E7568F = {
+			isa = PBXGroup;
+			children = (
+				049D6F6221058C0600E7568F /* EasyJob */,
+				049D6F6121058C0600E7568F /* Products */,
+				A09E32D026855A5ABCCBF718 /* Pods */,
+				60051F06C1A7B3D5225D29C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		049D6F6121058C0600E7568F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049D6F6021058C0600E7568F /* EasyJob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049D6F6221058C0600E7568F /* EasyJob */ = {
+			isa = PBXGroup;
+			children = (
+				04356B81210FFDB700CED6A6 /* After */,
+				046F47882109B210007CD8F2 /* Library */,
+				049D6F832105BAF400E7568F /* Class */,
+				049D6F7B2105B50600E7568F /* Base */,
+				049D6F792105919F00E7568F /* Others */,
+				049D6F6C21058C0800E7568F /* Assets.xcassets */,
+				049D6F7121058C0800E7568F /* Info.plist */,
+				049D6F7221058C0800E7568F /* main.m */,
+				049D6F7A2105ACF000E7568F /* PrefixHeader.pch */,
+			);
+			path = EasyJob;
+			sourceTree = "<group>";
+		};
+		049D6F792105919F00E7568F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				049D6F6321058C0600E7568F /* AppDelegate.h */,
+				049D6F6421058C0600E7568F /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		049D6F7B2105B50600E7568F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				049D6F802105BAAD00E7568F /* BaseTabViewController.h */,
+				049D6F812105BAAD00E7568F /* BaseTabViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		049D6F832105BAF400E7568F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				049D6F842105BC6D00E7568F /* Main(首页) */,
+				049D6F8D2105C49700E7568F /* Suggest(建议) */,
+				04A6243121073325004A49D9 /* Resume(简历) */,
+				04F98007210AEEBB006FC91C /* My(我的) */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		049D6F842105BC6D00E7568F /* Main(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				049D6F862105C2EC00E7568F /* Controller */,
+				049D6F872105C2FB00E7568F /* Model */,
+				049D6F852105BF3B00E7568F /* View */,
+			);
+			path = "Main(首页)";
+			sourceTree = "<group>";
+		};
+		049D6F852105BF3B00E7568F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				049D6F9D2105D5DA00E7568F /* EJCollectionViewCell.h */,
+				049D6F9E2105D5DA00E7568F /* EJCollectionViewCell.m */,
+				049D6F9F2105D5DA00E7568F /* EJCollectionViewCell.xib */,
+				0438CEA12105EA70001A08EC /* EJCollectionReusableView.h */,
+				0438CEA22105EA70001A08EC /* EJCollectionReusableView.m */,
+				0438CEA32105EA70001A08EC /* EJCollectionReusableView.xib */,
+				046F47912109DF7C007CD8F2 /* EJDetailViewTableViewCell.h */,
+				046F47922109DF7C007CD8F2 /* EJDetailViewTableViewCell.m */,
+				046F47932109DF7C007CD8F2 /* EJDetailViewTableViewCell.xib */,
+				0455430D210ACFA6005B0A72 /* EJNewTableViewCell.h */,
+				0455430E210ACFA6005B0A72 /* EJNewTableViewCell.m */,
+				0455430F210ACFA6005B0A72 /* EJNewTableViewCell.xib */,
+				04F98047210B1E3C006FC91C /* EJShakeShakeView.h */,
+				04F98048210B1E3C006FC91C /* EJShakeShakeView.m */,
+				04F9804C210B1EB4006FC91C /* EJShakeShakeView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049D6F862105C2EC00E7568F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				049D6F942105C4CF00E7568F /* MainViewController.h */,
+				049D6F952105C4CF00E7568F /* MainViewController.m */,
+				046F478E2109C6E5007CD8F2 /* EJDetailJobViewController.h */,
+				046F478F2109C6E5007CD8F2 /* EJDetailJobViewController.m */,
+				04554312210AD64C005B0A72 /* EJNewViewController.h */,
+				04554313210AD64C005B0A72 /* EJNewViewController.m */,
+				04F98001210AE1FD006FC91C /* EJNearbyViewController.h */,
+				04F98002210AE1FD006FC91C /* EJNearbyViewController.m */,
+				04F98004210AE993006FC91C /* EJShakeViewController.h */,
+				04F98005210AE993006FC91C /* EJShakeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		049D6F872105C2FB00E7568F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046F47852109AF99007CD8F2 /* EJJobModel.h */,
+				046F47862109AF99007CD8F2 /* EJJobModel.m */,
+				046F478B2109BAB3007CD8F2 /* EJJobImage.h */,
+				046F478C2109BAB3007CD8F2 /* EJJobImage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049D6F8D2105C49700E7568F /* Suggest(建议) */ = {
+			isa = PBXGroup;
+			children = (
+				049D6F8E2105C49700E7568F /* Controller */,
+				049D6F8F2105C49700E7568F /* Model */,
+				049D6F902105C49700E7568F /* View */,
+			);
+			path = "Suggest(建议)";
+			sourceTree = "<group>";
+		};
+		049D6F8E2105C49700E7568F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				049D6F972105C4E000E7568F /* SuggestViewController.h */,
+				049D6F982105C4E000E7568F /* SuggestViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		049D6F8F2105C49700E7568F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049D6F902105C49700E7568F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A6243121073325004A49D9 /* Resume(简历) */ = {
+			isa = PBXGroup;
+			children = (
+				04A6243221073325004A49D9 /* Controller */,
+				04A6243321073325004A49D9 /* Model */,
+				04A6243421073325004A49D9 /* View */,
+			);
+			path = "Resume(简历)";
+			sourceTree = "<group>";
+		};
+		04A6243221073325004A49D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				049B1E6A21073CD50007157D /* EJResumeViewController.h */,
+				049B1E6B21073CD50007157D /* EJResumeViewController.m */,
+				0429AA4F2108109600440D13 /* EJBiographicalNotesViewController.h */,
+				0429AA502108109600440D13 /* EJBiographicalNotesViewController.m */,
+				0429AA5C2108217400440D13 /* EJPersonResumeViewController.h */,
+				0429AA5D2108217400440D13 /* EJPersonResumeViewController.m */,
+				0429AA65210854B200440D13 /* EJPersonInformationViewController.h */,
+				0429AA66210854B200440D13 /* EJPersonInformationViewController.m */,
+				041B81D02108802D0045B160 /* EJJobIntentionViewController.h */,
+				041B81D12108802D0045B160 /* EJJobIntentionViewController.m */,
+				042BEBDC210891E80040B87C /* EJEducationViewController.h */,
+				042BEBDD210891E80040B87C /* EJEducationViewController.m */,
+				046F477D2109781C007CD8F2 /* EJEduTableViewController.h */,
+				046F477E2109781C007CD8F2 /* EJEduTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04A6243321073325004A49D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0429AA5F2108254100440D13 /* EJResumeModel.h */,
+				0429AA602108254100440D13 /* EJResumeModel.m */,
+				0429AA6221082E2600440D13 /* EJSingle.h */,
+				0429AA6321082E2600440D13 /* EJSingle.m */,
+				042BEBDF210892670040B87C /* EJEducationModel.h */,
+				042BEBE0210892670040B87C /* EJEducationModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A6243421073325004A49D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0429AA58210817AF00440D13 /* HeaderView.h */,
+				0429AA52210817AF00440D13 /* HeaderView.m */,
+				0429AA53210817AF00440D13 /* JYWaveView */,
+				046F478021097B54007CD8F2 /* EJEduTableViewCell.h */,
+				046F478121097B54007CD8F2 /* EJEduTableViewCell.m */,
+				046F478221097B54007CD8F2 /* EJEduTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04F98007210AEEBB006FC91C /* My(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				04F98008210AEEBB006FC91C /* Controllers */,
+				04F9801F210AEEBB006FC91C /* Models */,
+				04F98020210AEEBB006FC91C /* Views */,
+			);
+			path = "My(我的)";
+			sourceTree = "<group>";
+		};
+		04F98008210AEEBB006FC91C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04F98035210B024F006FC91C /* Send(投递) */,
+				04F98009210AEEBB006FC91C /* About(关于我们) */,
+				04F9800D210AEEBB006FC91C /* BWWMyViewController.h */,
+				04F9800E210AEEBB006FC91C /* BWWMyViewController.m */,
+				04F98019210AEEBB006FC91C /* MyViewController.h */,
+				04F9801A210AEEBB006FC91C /* MyViewController.m */,
+				04F9801B210AEEBB006FC91C /* Setting(设置) */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04F98009210AEEBB006FC91C /* About(关于我们) */ = {
+			isa = PBXGroup;
+			children = (
+				04F9800A210AEEBB006FC91C /* AboutUsViewController.h */,
+				04F9800B210AEEBB006FC91C /* AboutUsViewController.m */,
+				04F9800C210AEEBB006FC91C /* AboutUsViewController.xib */,
+			);
+			path = "About(关于我们)";
+			sourceTree = "<group>";
+		};
+		04F9801B210AEEBB006FC91C /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				04F9801C210AEEBB006FC91C /* SettingViewController.h */,
+				04F9801D210AEEBB006FC91C /* SettingViewController.m */,
+				04F9801E210AEEBB006FC91C /* SettingViewController.xib */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		04F9801F210AEEBB006FC91C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04F98020210AEEBB006FC91C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04F98021210AEEBB006FC91C /* BWWMyTableViewCell.h */,
+				04F98022210AEEBB006FC91C /* BWWMyTableViewCell.m */,
+				04F98023210AEEBB006FC91C /* BWWMyTableViewCell.xib */,
+				04F98039210B04B8006FC91C /* EJSendTableViewCell.h */,
+				04F9803A210B04B8006FC91C /* EJSendTableViewCell.m */,
+				04F9803B210B04B8006FC91C /* EJSendTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04F98035210B024F006FC91C /* Send(投递) */ = {
+			isa = PBXGroup;
+			children = (
+				04F98036210B0293006FC91C /* EJSendViewController.h */,
+				04F98037210B0293006FC91C /* EJSendViewController.m */,
+			);
+			path = "Send(投递)";
+			sourceTree = "<group>";
+		};
+		04F9803E210B105F006FC91C /* JKAlertDialog */ = {
+			isa = PBXGroup;
+			children = (
+				04F9803F210B105F006FC91C /* JKAlertDialog.h */,
+				04F98040210B105F006FC91C /* JKAlertDialog.m */,
+			);
+			path = JKAlertDialog;
+			sourceTree = "<group>";
+		};
+		60051F06C1A7B3D5225D29C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF01D1594ACFAAE0B9776996 /* libPods-EasyJob.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A09E32D026855A5ABCCBF718 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8E786D10F17C86508CE0877 /* Pods-EasyJob.debug.xcconfig */,
+				0074E60D46575D53B59DF9BB /* Pods-EasyJob.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049D6F5F21058C0600E7568F /* EasyJob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049D6F7621058C0800E7568F /* Build configuration list for PBXNativeTarget "EasyJob" */;
+			buildPhases = (
+				92F8337995F0CD9E79FA4537 /* [CP] Check Pods Manifest.lock */,
+				049D6F5C21058C0600E7568F /* Sources */,
+				049D6F5D21058C0600E7568F /* Frameworks */,
+				049D6F5E21058C0600E7568F /* Resources */,
+				5DBDAE854ADDE6D548B1469B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyJob;
+			productName = EasyJob;
+			productReference = 049D6F6021058C0600E7568F /* EasyJob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049D6F5821058C0600E7568F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EJ;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					049D6F5F21058C0600E7568F = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 049D6F5B21058C0600E7568F /* Build configuration list for PBXProject "EasyJob" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049D6F5721058C0600E7568F;
+			productRefGroup = 049D6F6121058C0600E7568F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049D6F5F21058C0600E7568F /* EasyJob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049D6F5E21058C0600E7568F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049D6F6D21058C0800E7568F /* Assets.xcassets in Resources */,
+				04F9803D210B04B8006FC91C /* EJSendTableViewCell.xib in Resources */,
+				04F98032210AEEBC006FC91C /* BWWMyTableViewCell.xib in Resources */,
+				04F98030210AEEBC006FC91C /* SettingViewController.xib in Resources */,
+				0438CEA52105EA70001A08EC /* EJCollectionReusableView.xib in Resources */,
+				04F9804D210B1EB4006FC91C /* EJShakeShakeView.xib in Resources */,
+				04554311210ACFA6005B0A72 /* EJNewTableViewCell.xib in Resources */,
+				046F47952109DF7C007CD8F2 /* EJDetailViewTableViewCell.xib in Resources */,
+				04F98028210AEEBB006FC91C /* AboutUsViewController.xib in Resources */,
+				049D6FA12105D5DA00E7568F /* EJCollectionViewCell.xib in Resources */,
+				046F478421097B54007CD8F2 /* EJEduTableViewCell.xib in Resources */,
+				046F478A2109B245007CD8F2 /* jobs.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DBDAE854ADDE6D548B1469B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyJob/Pods-EasyJob-resources.sh",
+				"${PODS_ROOT}/AXIndicatorView/AXIndicatorView/Classes/AXIndicatorView.bundle",
+				"${PODS_ROOT}/AXPracticalHUD/AXPracticalHUD/AXPracticalHUD/AXPracticalHUD.bundle",
+				"${PODS_ROOT}/AXWebViewController/AXWebViewController/AXWebViewController/AXWebViewController.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/XLForm/XLForm/XLForm.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AXIndicatorView.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AXPracticalHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AXWebViewController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XLForm.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyJob/Pods-EasyJob-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F8337995F0CD9E79FA4537 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyJob-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049D6F5C21058C0600E7568F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042BEBDE210891E80040B87C /* EJEducationViewController.m in Sources */,
+				049D6FA02105D5DA00E7568F /* EJCollectionViewCell.m in Sources */,
+				0429AA5B210817AF00440D13 /* WeakProxy.m in Sources */,
+				0429AA612108254100440D13 /* EJResumeModel.m in Sources */,
+				04554314210AD64C005B0A72 /* EJNewViewController.m in Sources */,
+				04F98003210AE1FD006FC91C /* EJNearbyViewController.m in Sources */,
+				04356B9A210FFDB700CED6A6 /* SessionData.m in Sources */,
+				046F47902109C6E5007CD8F2 /* EJDetailJobViewController.m in Sources */,
+				04356B97210FFDB700CED6A6 /* AppConfigurationCache.m in Sources */,
+				04356B9E210FFDB700CED6A6 /* Reachability.m in Sources */,
+				049D6F822105BAAD00E7568F /* BaseTabViewController.m in Sources */,
+				042BEBE1210892670040B87C /* EJEducationModel.m in Sources */,
+				049B1E6C21073CD50007157D /* EJResumeViewController.m in Sources */,
+				049D6F7321058C0800E7568F /* main.m in Sources */,
+				0429AA6421082E2600440D13 /* EJSingle.m in Sources */,
+				0429AA59210817AF00440D13 /* HeaderView.m in Sources */,
+				049D6F992105C4E000E7568F /* SuggestViewController.m in Sources */,
+				046F47872109AF99007CD8F2 /* EJJobModel.m in Sources */,
+				0429AA512108109600440D13 /* EJBiographicalNotesViewController.m in Sources */,
+				0429AA67210854B200440D13 /* EJPersonInformationViewController.m in Sources */,
+				046F47942109DF7C007CD8F2 /* EJDetailViewTableViewCell.m in Sources */,
+				041B81D22108802D0045B160 /* EJJobIntentionViewController.m in Sources */,
+				04356B96210FFDB700CED6A6 /* AppConfiguration.m in Sources */,
+				04F98038210B0293006FC91C /* EJSendViewController.m in Sources */,
+				0429AA5A210817AF00440D13 /* JYWaveView.m in Sources */,
+				04F98027210AEEBB006FC91C /* AboutUsViewController.m in Sources */,
+				04F98049210B1E3C006FC91C /* EJShakeShakeView.m in Sources */,
+				04356B99210FFDB700CED6A6 /* Helper.m in Sources */,
+				04F9802F210AEEBC006FC91C /* SettingViewController.m in Sources */,
+				049D6F962105C4CF00E7568F /* MainViewController.m in Sources */,
+				0438CEA42105EA70001A08EC /* EJCollectionReusableView.m in Sources */,
+				04F98041210B105F006FC91C /* JKAlertDialog.m in Sources */,
+				046F477F2109781C007CD8F2 /* EJEduTableViewController.m in Sources */,
+				04554310210ACFA6005B0A72 /* EJNewTableViewCell.m in Sources */,
+				046F478D2109BAB3007CD8F2 /* EJJobImage.m in Sources */,
+				04F9803C210B04B8006FC91C /* EJSendTableViewCell.m in Sources */,
+				04356B9C210FFDB700CED6A6 /* ViewControllerAnchorSet.m in Sources */,
+				04F98031210AEEBC006FC91C /* BWWMyTableViewCell.m in Sources */,
+				049D6F6521058C0600E7568F /* AppDelegate.m in Sources */,
+				0429AA5E2108217400440D13 /* EJPersonResumeViewController.m in Sources */,
+				04356B98210FFDB700CED6A6 /* GlobalConfig.m in Sources */,
+				04356B9B210FFDB700CED6A6 /* SplashViewController.m in Sources */,
+				04356B9D210FFDB700CED6A6 /* MainTabViewController.m in Sources */,
+				04F98006210AE993006FC91C /* EJShakeViewController.m in Sources */,
+				046F478321097B54007CD8F2 /* EJEduTableViewCell.m in Sources */,
+				04F98029210AEEBB006FC91C /* BWWMyViewController.m in Sources */,
+				04F9802E210AEEBC006FC91C /* MyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		049D6F7421058C0800E7568F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		049D6F7521058C0800E7568F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049D6F7721058C0800E7568F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E786D10F17C86508CE0877 /* Pods-EasyJob.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5C27753FZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EasyJob/CleanMoon/Pods/UMCAnalytics",
+					"$(PROJECT_DIR)/EasyJob/CleanMoon/Pods/UMCCommon",
+					"$(PROJECT_DIR)/EasyJob/CleanMoon/Pods/UMCSecurityPlugins/thirdparties",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EasyJob/PrefixHeader.pch";
+				INFOPLIST_FILE = EasyJob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiansheng.defubao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049D6F7821058C0800E7568F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0074E60D46575D53B59DF9BB /* Pods-EasyJob.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5C27753FZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EasyJob/CleanMoon/Pods/UMCAnalytics",
+					"$(PROJECT_DIR)/EasyJob/CleanMoon/Pods/UMCCommon",
+					"$(PROJECT_DIR)/EasyJob/CleanMoon/Pods/UMCSecurityPlugins/thirdparties",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EasyJob/PrefixHeader.pch";
+				INFOPLIST_FILE = EasyJob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiansheng.defubao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049D6F5B21058C0600E7568F /* Build configuration list for PBXProject "EasyJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049D6F7421058C0800E7568F /* Debug */,
+				049D6F7521058C0800E7568F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049D6F7621058C0800E7568F /* Build configuration list for PBXNativeTarget "EasyJob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049D6F7721058C0800E7568F /* Debug */,
+				049D6F7821058C0800E7568F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049D6F5821058C0600E7568F /* Project object */;
+}

@@ -1,0 +1,23 @@
+//
+//  EJNewTableViewCell.h
+//  EasyJob
+//
+//  Created by mac on 2018/7/27.
+//  Copyright © 2018年 mac. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface EJNewTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *img;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *styleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *priceLabel;
+
+@end
+
+NS_ASSUME_NONNULL_END
